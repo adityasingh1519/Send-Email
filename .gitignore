@@ -1,0 +1,36 @@
+# Environment variables & sensitive credentials
+.env
+.env.*
+!.env.example
+
+# Tracking logs & histories
+sent_log*.csv
+*.log
+*.csv
+
+# Personal PDFs, resumes, and attachments
+*.pdf
+
+# Personal spreadsheets & recipient lists (keep sample template)
+*.xlsx
+*.xls
+!sample_recipients.xlsx
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.system_generated/
